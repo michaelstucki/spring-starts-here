@@ -11,8 +11,8 @@ public class LoginProcessor {
   private String password;
 
   public boolean login() {
-    String username = this.getUsername();
-    String password = this.getPassword();
+//    String username = this.getUsername();
+//    String password = this.getPassword();
 
     if ("natalie".equals(username) && "password".equals(password)) {
       return true;
@@ -21,17 +21,17 @@ public class LoginProcessor {
     }
   }
 
-  public String getUsername() {
-    return username;
-  }
+//  public String getUsername() {
+//    return username;
+//  }
 
   public void setUsername(String username) {
     this.username = username;
   }
 
-  public String getPassword() {
-    return password;
-  }
+//  public String getPassword() {
+//    return password;
+//  }
 
   public void setPassword(String password) {
     this.password = password;
